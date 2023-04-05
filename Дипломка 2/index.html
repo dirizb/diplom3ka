@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce</title>
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="style.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -39,7 +40,17 @@
             <i id="bar" class="fas fa-outdent" onclick="myFunction()"></i><!--Иконка корзины-->
         </div>
     </section>
-
+    <section>
+    <div class="cart-wrapper">
+        <div class="cart">
+          <h2>Корзина</h2>
+          <ul class="cart-items">
+          </ul>
+          <div class="cart-total">Итого: <span class="total-amount">0</span> $.</div>
+        </div>
+        <button class="add-to-cart-btn">Добавить товар</button>
+      </div>
+    </section>
     <section id="hero">
         <h4>Специальное предложение</h4>
         <h2>Выгодные предложения</h2>
@@ -81,6 +92,7 @@
         <div class="pro-container">
             <div class="pro">
                 <img src="C:\Users\1111\OneDrive\Рабочий стол\Дипломка 2\img\products\f1.jpg" alt="">
+                <div class="cart-items">
                 <div class="des">
                     <span>adidas</span>
                     <h5>Гавайская рубашка</h5>
@@ -92,6 +104,7 @@
                         <span class="material-symbols-outlined">star_half</span>
                         <h4>$78</h4>
                     </div>
+                </div>
                 </div>
                 <a href="#"><span class="material-symbols-outlined cart">shopping_cart<span></a>
             </div>
